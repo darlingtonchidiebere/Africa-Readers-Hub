@@ -1,0 +1,56 @@
+@import'./variable';
+
+@mixin myfont {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    
+}
+body{
+    background: $background;
+
+}
+header{
+    @include myfont()
+    height:3em ;
+    margin: 0px;
+    padding: $mainpadding;
+    border-bottom: $border-bottom;
+    
+ 
+}
+ .menu-link{
+    position: relative;
+    text-decoration: none;
+    color: $textcolor;
+    left: 75vw;
+    top: -6.9em;
+}
+li{
+    @include myfont()
+    position: relative;
+    list-style: none;
+    padding-right:$mainpadding ;
+    color: $textcolor;
+  
+}
+#books {
+    list-style: dot;
+    list-style-position: center;
+    
+}
+.list-of_books{
+    border:0.3px solid rgb(163, 161, 161); 
+    border-left: none;
+    width:25%;
+    height: 100%;
+    padding: 0px;
+    margin-top: 1rem ;
+
+}
+.title{
+    position: relative;
+    left: 2em;
+    top: -3em;
+}

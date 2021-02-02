@@ -1,0 +1,56 @@
+body {
+  background: #252525;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  height: 3em;
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 0.4px solid #aaa8a8;
+}
+
+.menu-link {
+  position: relative;
+  text-decoration: none;
+  color: #aaa8a8;
+  left: 75vw;
+  top: -6.9em;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  position: relative;
+  list-style: none;
+  padding-right: 10px;
+  color: #aaa8a8;
+}
+
+#books {
+  list-style: dot;
+  list-style-position: center;
+}
+
+.list-of_books {
+  border: 0.3px solid #a3a1a1;
+  border-left: none;
+  width: 25%;
+  height: 100%;
+  padding: 0px;
+  margin-top: 1rem;
+}
+
+.title {
+  position: relative;
+  left: 2em;
+  top: -3em;
+}
+/*# sourceMappingURL=book.css.map */

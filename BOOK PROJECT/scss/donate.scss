@@ -1,0 +1,30 @@
+@import "global";
+@import "mixins";
+@import "variable";
+
+
+    
+    .title{
+    
+        position: relative;
+        font-weight: 900;
+    }
+    .my-menu_links {
+        position: relative;
+        color:$textcolor;
+        text-decoration: none;
+        top: 1.5em;
+        left:auto 15rem ;
+        &:not(:last-child){
+             margin-right:.8rem ;
+             float: inline-end;
+        }
+        
+    }
+    a, a:hover, a:visited {
+        color:$textcolor;
+    }
+    .icon-home{
+        background-color: pink;
+        width: 12%;
+    }

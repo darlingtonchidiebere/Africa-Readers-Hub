@@ -1,0 +1,143 @@
+ body{
+    padding-top: 0px;
+    margin: 0px;
+    background-color: rgb(38, 38, 39);
+
+}
+#my_nav{
+    display: flex;
+    background-color: rgb(38, 38, 39);
+    color: #fff;
+    height: 10vh;
+    border-bottom: 0.5px solid lightgray;
+    justify-content:auto ;
+    width: 100%;
+    margin-top: 0px;
+    margin:0px;
+}
+#africa_readers{
+    font-family: Bahnschrift Light;
+    color: rgb(247, 240, 240);
+    text-justify: inherit;
+
+}
+#icon{
+    margin:0px;
+}
+#search_menu{
+    position: absolute;
+    display: flex;
+    height: 05vh;
+    width: 30vw;
+    background-color:rgb(129, 119, 119);
+    margin-top: 20px;
+    justify-self: auto;
+    left: 20em;
+    text-align: center;
+    
+    
+}
+#button{
+    position: relative;
+    background-color: rgb(38,38, 39);
+    height: 26px;
+    border: rgb(241, 238, 238);
+    left: -3em;
+    bottom:-3px ;
+    left:-4.9em;
+    cursor: pointer;
+
+}
+#search-box{
+    position: relative;
+    height: 25px;
+    width: 40%;
+    margin-left: 20px;
+    border-color:  rgb(60, 82, 146);
+    border-radius: 12px;
+    font-size: 17px;
+    color:  rgb(31, 29, 29);
+    text-align: center;
+    left: 17em;
+    box-shadow: rgb(31, 29, 29,);
+}
+#menu_bar{
+    position: relative;
+    background-color;
+    position: relative;
+    display: flex;
+    
+    left: 41%;
+}
+ #menu-list{
+    position: relative;
+    font-family:Bahnschrift Light ;
+    font-size: large;
+    color: rgb(161, 139, 139);
+    padding-right: 10px;
+    list-style: none;
+    float: right;
+}
+::placeholder{
+    color: rgb(31, 29, 29);
+    font-size:26px;
+    font-family: Bahnschrift Light;
+    text-align: center;
+}
+
+#blog-one{
+    display: grid;
+    position: relative;
+    background-color: ;
+    width: 25vw;
+    height: 120vh;
+    border: 0.3px solid gray;
+    box-shadow:1px solid black;
+    border-radius: 6px;
+    margin-bottom: 15em;
+
+}
+#blog_two{
+    display: flexbox;
+    height: 40vh;
+    width: ;
+    margin-top: 5%;
+}
+img{
+    margin-left: 25px;
+    -
+}
+#search-box:focus{
+    outline: none;
+}
+button:focus{
+    outline:none;
+}
+#books-cat{
+    position: relative;
+    font-family:Bahnschrift Light ;
+    font-size: large;
+    color: rgb(173, 153, 153);
+    margin-left: 30px;
+    margin-top: 0px;
+    list-style: dot;
+    float: right
+
+}
+#blog_three{
+    position: relative;
+    height: 30vh;
+    background-color: ;
+    margin-left: 0px;
+}
+#p-one{
+    position: relative;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 0px;
+    top:-1em;
+    
+}
+p{
+    color:#fff ;
+}
